@@ -38,3 +38,12 @@ export const hexToRgb = (hex: string): number[] => {
       parseInt(hexChannel.repeat(hexChannel.length ^ 3), 16)
     );
 };
+
+/**
+ * Returns a Hello World.
+ *
+ * @returns String "Hello Worl".
+ */
+export const printHelloWorld = (): string => {
+  return "Hello World";
+};
